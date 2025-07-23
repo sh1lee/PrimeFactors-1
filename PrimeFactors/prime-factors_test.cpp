@@ -6,6 +6,7 @@ public:
     PrimeFactors prime_factor;
     vector<int> expected;
 };
+
 TEST_F(PrimeFixture, Of1) {
     PrimeFactors prime_factor;
     expected = {};
