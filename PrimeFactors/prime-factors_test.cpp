@@ -6,7 +6,7 @@ public:
     PrimeFactors prime_factor;
     vector<int> expected;
 };
-TEST_F(PrimeFixture, of1) {
+TEST_F(PrimeFixture, Of1) {
     PrimeFactors prime_factor;
     expected = {};
     EXPECT_EQ(expected, prime_factor.of(1));
